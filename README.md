@@ -30,7 +30,7 @@ python3 tools/convert_sportsmot_anno.py
  链接：https://pan.baidu.com/s/1uX-s5z86xcmHWbXtpQI9bA?pwd=qxyh 提取码：qxyh
 ## 训练权重下载
  链接：https://pan.baidu.com/s/1Q_SY-tHs1XzUg2xZOrd7Bg?pwd=5fjl 提取码：5fjl 
-## 跟踪任务
+## 跟踪实现
 ```
 python3 tools/track_mixsort.py -expn {exp_name} -f exps/example/mot/yolox_x_sportsmot.py -c pretrained/yolox_x_sports_train.pth.tar -b 1 -d 1 --config track
 ```
