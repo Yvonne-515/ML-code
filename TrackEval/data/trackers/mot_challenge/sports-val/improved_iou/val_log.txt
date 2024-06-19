@@ -1,0 +1,106 @@
+2024-05-09 16:10:06.823 | INFO     | __main__:main:162 - Args: Namespace(alpha=0.6, batch_size=1, ckpt='pretrained/yolox_x_sports_train.pth.tar', conf=0.01, config='track', devices=1, dist_backend='nccl', dist_url=None, exp_file='exps/example/mot/yolox_x_sportsmot.py', experiment_name='bm_iou', fp16=False, fuse=False, iou_only=False, iou_thresh=0.3, local_rank=0, machine_rank=0, match_thresh=0.9, min_box_area=100, mot20=False, name=None, nms=0.7, num_machines=1, opts=[], radius=0, script='mixformer_deit', seed=None, speed=False, test=False, track_buffer=30, track_thresh=0.6, trt=False, tsize=None)
+2024-05-09 16:10:07.346 | INFO     | __main__:main:172 - Model Summary: Params: 99.00M, Gflops: 793.21
+2024-05-09 16:10:07.346 | INFO     | yolox.data.datasets.mot:__init__:41 - loading annotations into memory...
+2024-05-09 16:10:07.380 | INFO     | yolox.data.datasets.mot:__init__:41 - Done (t=0.03s)
+2024-05-09 16:10:07.380 | INFO     | pycocotools.coco:__init__:86 - creating index...
+2024-05-09 16:10:07.386 | INFO     | pycocotools.coco:__init__:86 - index created!
+2024-05-09 16:10:07.915 | INFO     | __main__:main:194 - loading checkpoint
+2024-05-09 16:10:08.551 | INFO     | __main__:main:200 - loaded checkpoint done.
+2024-05-09 16:15:38.741 | INFO     | __main__:main:162 - Args: Namespace(alpha=0.6, batch_size=1, ckpt='pretrained/yolox_x_sports_train.pth.tar', conf=0.01, config='track', devices=1, dist_backend='nccl', dist_url=None, exp_file='exps/example/mot/yolox_x_sportsmot.py', experiment_name='bm_iou', fp16=False, fuse=False, iou_only=False, iou_thresh=0.3, local_rank=0, machine_rank=0, match_thresh=0.9, min_box_area=100, mot20=False, name=None, nms=0.7, num_machines=1, opts=[], radius=0, script='mixformer_deit', seed=None, speed=False, test=False, track_buffer=30, track_thresh=0.6, trt=False, tsize=None)
+2024-05-09 16:15:39.275 | INFO     | __main__:main:172 - Model Summary: Params: 99.00M, Gflops: 793.21
+2024-05-09 16:15:39.276 | INFO     | yolox.data.datasets.mot:__init__:41 - loading annotations into memory...
+2024-05-09 16:15:40.040 | INFO     | yolox.data.datasets.mot:__init__:41 - Done (t=0.76s)
+2024-05-09 16:15:40.040 | INFO     | pycocotools.coco:__init__:86 - creating index...
+2024-05-09 16:15:40.111 | INFO     | pycocotools.coco:__init__:86 - index created!
+2024-05-09 16:15:41.251 | INFO     | __main__:main:194 - loading checkpoint
+2024-05-09 16:15:41.622 | INFO     | __main__:main:200 - loaded checkpoint done.
+2024-05-09 16:18:45.064 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_00HRwkvvjtQ_c001.txt
+2024-05-09 16:21:40.580 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_00HRwkvvjtQ_c003.txt
+2024-05-09 16:23:10.662 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_00HRwkvvjtQ_c005.txt
+2024-05-09 16:24:58.960 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_00HRwkvvjtQ_c007.txt
+2024-05-09 16:27:29.225 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_00HRwkvvjtQ_c008.txt
+2024-05-09 16:29:22.491 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_00HRwkvvjtQ_c011.txt
+2024-05-09 16:30:47.566 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_0kUtTtmLaJA_c004.txt
+2024-05-09 16:31:42.081 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_0kUtTtmLaJA_c005.txt
+2024-05-09 16:35:27.958 | INFO     | __main__:main:162 - Args: Namespace(alpha=0.6, batch_size=1, ckpt='pretrained/yolox_x_sports_train.pth.tar', conf=0.01, config='track', devices=1, dist_backend='nccl', dist_url=None, exp_file='exps/example/mot/yolox_x_sportsmot.py', experiment_name='bm_iou', fp16=False, fuse=False, iou_only=True, iou_thresh=0.3, local_rank=0, machine_rank=0, match_thresh=0.9, min_box_area=100, mot20=False, name=None, nms=0.7, num_machines=1, opts=[], radius=0, script='mixformer_deit', seed=None, speed=False, test=False, track_buffer=30, track_thresh=0.6, trt=False, tsize=None)
+2024-05-09 16:35:28.486 | INFO     | __main__:main:172 - Model Summary: Params: 99.00M, Gflops: 793.21
+2024-05-09 16:35:28.486 | INFO     | yolox.data.datasets.mot:__init__:41 - loading annotations into memory...
+2024-05-09 16:35:29.251 | INFO     | yolox.data.datasets.mot:__init__:41 - Done (t=0.76s)
+2024-05-09 16:35:29.252 | INFO     | pycocotools.coco:__init__:86 - creating index...
+2024-05-09 16:35:29.316 | INFO     | pycocotools.coco:__init__:86 - index created!
+2024-05-09 16:35:30.468 | INFO     | __main__:main:194 - loading checkpoint
+2024-05-09 16:35:31.114 | INFO     | __main__:main:200 - loaded checkpoint done.
+2024-05-09 16:38:22.147 | INFO     | __main__:main:162 - Args: Namespace(alpha=0.6, batch_size=1, ckpt='pretrained/yolox_x_sports_train.pth.tar', conf=0.01, config='track', devices=1, dist_backend='nccl', dist_url=None, exp_file='exps/example/mot/yolox_x_sportsmot.py', experiment_name='bm_iou', fp16=False, fuse=False, iou_only=True, iou_thresh=0.3, local_rank=0, machine_rank=0, match_thresh=0.9, min_box_area=100, mot20=False, name=None, nms=0.7, num_machines=1, opts=[], radius=0, script='mixformer_deit', seed=None, speed=False, test=False, track_buffer=30, track_thresh=0.6, trt=False, tsize=None)
+2024-05-09 16:38:22.937 | INFO     | __main__:main:172 - Model Summary: Params: 99.00M, Gflops: 793.21
+2024-05-09 16:38:22.938 | INFO     | yolox.data.datasets.mot:__init__:41 - loading annotations into memory...
+2024-05-09 16:38:23.794 | INFO     | yolox.data.datasets.mot:__init__:41 - Done (t=0.86s)
+2024-05-09 16:38:23.794 | INFO     | pycocotools.coco:__init__:86 - creating index...
+2024-05-09 16:38:23.872 | INFO     | pycocotools.coco:__init__:86 - index created!
+2024-05-09 16:38:25.116 | INFO     | __main__:main:194 - loading checkpoint
+2024-05-09 16:38:25.524 | INFO     | __main__:main:200 - loaded checkpoint done.
+2024-05-09 16:41:18.631 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_00HRwkvvjtQ_c001.txt
+2024-05-09 16:44:08.911 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_00HRwkvvjtQ_c003.txt
+2024-05-09 16:45:35.621 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_00HRwkvvjtQ_c005.txt
+2024-05-09 16:47:18.394 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_00HRwkvvjtQ_c007.txt
+2024-05-09 16:49:41.304 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_00HRwkvvjtQ_c008.txt
+2024-05-09 16:51:29.153 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_00HRwkvvjtQ_c011.txt
+2024-05-09 16:52:51.316 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_0kUtTtmLaJA_c004.txt
+2024-05-09 16:53:43.696 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_0kUtTtmLaJA_c005.txt
+2024-05-09 16:54:35.546 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_0kUtTtmLaJA_c006.txt
+2024-05-09 16:55:16.053 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_0kUtTtmLaJA_c007.txt
+2024-05-09 16:55:56.137 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_0kUtTtmLaJA_c008.txt
+2024-05-09 16:56:36.921 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_0kUtTtmLaJA_c010.txt
+2024-05-09 16:57:50.837 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_2QhNRucNC7E_c017.txt
+2024-05-09 16:58:28.245 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_4-EmEtrturE_c009.txt
+2024-05-09 17:00:38.047 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_4r8QL_wglzQ_c001.txt
+2024-05-09 17:01:58.554 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_5ekaksddqrc_c001.txt
+2024-05-09 17:03:30.648 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_5ekaksddqrc_c002.txt
+2024-05-09 17:06:28.814 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_5ekaksddqrc_c003.txt
+2024-05-09 17:08:29.042 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_5ekaksddqrc_c004.txt
+2024-05-09 17:10:55.001 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_5ekaksddqrc_c005.txt
+2024-05-09 17:11:31.050 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_9MHDmAMxO5I_c002.txt
+2024-05-09 17:12:05.286 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_9MHDmAMxO5I_c003.txt
+2024-05-09 17:13:14.534 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_9MHDmAMxO5I_c004.txt
+2024-05-09 17:13:54.392 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_9MHDmAMxO5I_c006.txt
+2024-05-09 17:15:11.238 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_9MHDmAMxO5I_c009.txt
+2024-05-09 17:16:24.282 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_BgwzTUxJaeU_c008.txt
+2024-05-09 17:17:55.042 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_BgwzTUxJaeU_c012.txt
+2024-05-09 17:20:22.387 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_BgwzTUxJaeU_c014.txt
+2024-05-09 17:22:08.126 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_G-vNjfx1GGc_c004.txt
+2024-05-09 17:23:20.832 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_G-vNjfx1GGc_c008.txt
+2024-05-09 17:24:38.686 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_G-vNjfx1GGc_c600.txt
+2024-05-09 17:25:54.109 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_G-vNjfx1GGc_c601.txt
+2024-05-09 17:27:49.320 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_ITo3sCnpw_k_c007.txt
+2024-05-09 17:29:19.097 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_ITo3sCnpw_k_c010.txt
+2024-05-09 17:31:21.930 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_ITo3sCnpw_k_c011.txt
+2024-05-09 17:33:35.656 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_ITo3sCnpw_k_c012.txt
+2024-05-09 17:35:17.805 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_cC2mHWqMcjk_c007.txt
+2024-05-09 17:35:56.227 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_cC2mHWqMcjk_c008.txt
+2024-05-09 17:36:59.977 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_cC2mHWqMcjk_c009.txt
+2024-05-09 17:38:29.874 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_dw7LOz17Omg_c053.txt
+2024-05-09 17:39:42.919 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_dw7LOz17Omg_c067.txt
+2024-05-09 17:42:00.458 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_i2_L4qquVg0_c006.txt
+2024-05-09 17:43:08.363 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_i2_L4qquVg0_c007.txt
+2024-05-09 17:44:27.331 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_i2_L4qquVg0_c009.txt
+2024-05-09 17:46:22.546 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/bm_iou/track_results/v_i2_L4qquVg0_c010.txt
+2024-05-09 17:46:22.590 | INFO     | yolox.evaluators.mot_evaluator:evaluate_prediction:1089 - Evaluate in main process...
+2024-05-09 17:46:24.142 | INFO     | yolox.evaluators.mot_evaluator:evaluate_prediction:1118 - Loading and preparing results...
+2024-05-09 17:46:25.397 | INFO     | yolox.evaluators.mot_evaluator:evaluate_prediction:1118 - DONE (t=1.26s)
+2024-05-09 17:46:25.398 | INFO     | pycocotools.coco:loadRes:366 - creating index...
+2024-05-09 17:46:25.476 | INFO     | pycocotools.coco:loadRes:366 - index created!
+2024-05-09 17:46:28.310 | INFO     | __main__:main:227 - 
+Average forward time: 121.99 ms, Average track time: 27.56 ms, Average inference time: 149.56 ms
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.866
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.973
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.951
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.690
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.858
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.889
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.089
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.789
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.894
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.737
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.888
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.912
+
+2024-05-09 17:46:28.310 | INFO     | __main__:main:229 - Completed

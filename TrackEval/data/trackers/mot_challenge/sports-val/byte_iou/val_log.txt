@@ -1,0 +1,92 @@
+2024-05-09 15:02:59.743 | INFO     | __main__:main:156 - Args: Namespace(batch_size=1, ckpt='pretrained/yolox_x_sports_train.pth.tar', conf=0.01, devices=1, dist_backend='nccl', dist_url=None, exp_file='exps/example/mot/yolox_x_sportsmot.py', experiment_name='b_iou', fp16=False, fuse=False, iou_only=True, local_rank=0, machine_rank=0, match_thresh=0.9, min_box_area=100, mot20=False, name=None, nms=0.7, num_machines=1, opts=[], seed=None, speed=False, test=False, track_buffer=30, track_thresh=0.6, trt=False, tsize=None)
+2024-05-09 15:03:00.266 | INFO     | __main__:main:166 - Model Summary: Params: 99.00M, Gflops: 793.21
+2024-05-09 15:03:00.267 | INFO     | yolox.data.datasets.mot:__init__:41 - loading annotations into memory...
+2024-05-09 15:03:01.040 | INFO     | yolox.data.datasets.mot:__init__:41 - Done (t=0.77s)
+2024-05-09 15:03:01.040 | INFO     | pycocotools.coco:__init__:86 - creating index...
+2024-05-09 15:03:01.108 | INFO     | pycocotools.coco:__init__:86 - index created!
+2024-05-09 15:03:02.251 | INFO     | __main__:main:188 - loading checkpoint
+2024-05-09 15:03:02.668 | INFO     | __main__:main:193 - loaded checkpoint done.
+2024-05-09 15:05:26.454 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/b_iou/track_results/v_00HRwkvvjtQ_c001.txt
+2024-05-09 15:07:48.879 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/b_iou/track_results/v_00HRwkvvjtQ_c003.txt
+2024-05-09 15:09:01.887 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/b_iou/track_results/v_00HRwkvvjtQ_c005.txt
+2024-05-09 15:10:28.851 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/b_iou/track_results/v_00HRwkvvjtQ_c007.txt
+2024-05-09 15:12:28.414 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/b_iou/track_results/v_00HRwkvvjtQ_c008.txt
+2024-05-09 15:13:58.238 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/b_iou/track_results/v_00HRwkvvjtQ_c011.txt
+2024-05-09 15:15:04.323 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/b_iou/track_results/v_0kUtTtmLaJA_c004.txt
+2024-05-09 15:15:46.820 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/b_iou/track_results/v_0kUtTtmLaJA_c005.txt
+2024-05-09 15:16:28.969 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/b_iou/track_results/v_0kUtTtmLaJA_c006.txt
+2024-05-09 15:17:02.156 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/b_iou/track_results/v_0kUtTtmLaJA_c007.txt
+2024-05-09 15:17:34.546 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/b_iou/track_results/v_0kUtTtmLaJA_c008.txt
+2024-05-09 15:18:07.409 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/b_iou/track_results/v_0kUtTtmLaJA_c010.txt
+2024-05-09 15:19:02.197 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/b_iou/track_results/v_2QhNRucNC7E_c017.txt
+2024-05-09 15:19:32.584 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/b_iou/track_results/v_4-EmEtrturE_c009.txt
+2024-05-09 15:21:20.298 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/b_iou/track_results/v_4r8QL_wglzQ_c001.txt
+2024-05-09 15:22:27.140 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/b_iou/track_results/v_5ekaksddqrc_c001.txt
+2024-05-09 15:23:43.944 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/b_iou/track_results/v_5ekaksddqrc_c002.txt
+2024-05-09 15:26:11.605 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/b_iou/track_results/v_5ekaksddqrc_c003.txt
+2024-05-09 15:27:51.736 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/b_iou/track_results/v_5ekaksddqrc_c004.txt
+2024-05-09 15:29:53.189 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/b_iou/track_results/v_5ekaksddqrc_c005.txt
+2024-05-09 15:30:22.221 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/b_iou/track_results/v_9MHDmAMxO5I_c002.txt
+2024-05-09 15:30:49.699 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/b_iou/track_results/v_9MHDmAMxO5I_c003.txt
+2024-05-09 15:31:44.969 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/b_iou/track_results/v_9MHDmAMxO5I_c004.txt
+2024-05-09 15:32:17.649 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/b_iou/track_results/v_9MHDmAMxO5I_c006.txt
+2024-05-09 15:33:19.241 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/b_iou/track_results/v_9MHDmAMxO5I_c009.txt
+2024-05-09 15:34:19.963 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/b_iou/track_results/v_BgwzTUxJaeU_c008.txt
+2024-05-09 15:35:35.414 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/b_iou/track_results/v_BgwzTUxJaeU_c012.txt
+2024-05-09 15:37:36.937 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/b_iou/track_results/v_BgwzTUxJaeU_c014.txt
+2024-05-09 15:38:58.977 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/b_iou/track_results/v_G-vNjfx1GGc_c004.txt
+2024-05-09 15:39:57.292 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/b_iou/track_results/v_G-vNjfx1GGc_c008.txt
+2024-05-09 15:40:58.035 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/b_iou/track_results/v_G-vNjfx1GGc_c600.txt
+2024-05-09 15:41:56.475 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/b_iou/track_results/v_G-vNjfx1GGc_c601.txt
+2024-05-09 15:43:21.721 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/b_iou/track_results/v_ITo3sCnpw_k_c007.txt
+2024-05-09 15:44:29.829 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/b_iou/track_results/v_ITo3sCnpw_k_c010.txt
+2024-05-09 15:46:04.179 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/b_iou/track_results/v_ITo3sCnpw_k_c011.txt
+2024-05-09 15:47:47.632 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/b_iou/track_results/v_ITo3sCnpw_k_c012.txt
+2024-05-09 15:49:10.427 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/b_iou/track_results/v_cC2mHWqMcjk_c007.txt
+2024-05-09 15:49:41.893 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/b_iou/track_results/v_cC2mHWqMcjk_c008.txt
+2024-05-09 15:50:33.603 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/b_iou/track_results/v_cC2mHWqMcjk_c009.txt
+2024-05-09 15:51:40.573 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/b_iou/track_results/v_dw7LOz17Omg_c053.txt
+2024-05-09 15:52:35.329 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/b_iou/track_results/v_dw7LOz17Omg_c067.txt
+2024-05-09 15:54:23.517 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/b_iou/track_results/v_i2_L4qquVg0_c006.txt
+2024-05-09 15:55:18.324 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/b_iou/track_results/v_i2_L4qquVg0_c007.txt
+2024-05-09 15:56:17.674 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/b_iou/track_results/v_i2_L4qquVg0_c009.txt
+2024-05-09 15:57:49.778 | INFO     | yolox.evaluators.mot_evaluator:write_results:39 - save results to ./YOLOX_outputs/b_iou/track_results/v_i2_L4qquVg0_c010.txt
+2024-05-09 15:57:49.801 | INFO     | yolox.evaluators.mot_evaluator:evaluate_prediction:1089 - Evaluate in main process...
+2024-05-09 15:57:51.382 | INFO     | yolox.evaluators.mot_evaluator:evaluate_prediction:1118 - Loading and preparing results...
+2024-05-09 15:57:52.221 | INFO     | yolox.evaluators.mot_evaluator:evaluate_prediction:1118 - DONE (t=0.84s)
+2024-05-09 15:57:52.221 | INFO     | pycocotools.coco:loadRes:366 - creating index...
+2024-05-09 15:57:52.299 | INFO     | pycocotools.coco:loadRes:366 - index created!
+2024-05-09 15:57:52.322 | ERROR    | yolox.core.launch:launch:90 - An error has been caught in function 'launch', process 'MainProcess' (5719), thread 'MainThread' (139673730486656):
+Traceback (most recent call last):
+
+  File "tools/track_byte.py", line 287, in <module>
+    launch(
+    └ <function launch at 0x7f077261f8b0>
+
+> File "/home/wyw/BSproject/MixSort/yolox/core/launch.py", line 90, in launch
+    main_func(*args)
+    │          └ (╒══════════════════╤════════════════════════════════════════════════════════════════════════════════════════════════════════...
+    └ <function main at 0x7f070f56b280>
+
+  File "tools/track_byte.py", line 217, in main
+    *_, summary = evaluator.evaluate_byte(
+                  │         └ <function MOTEvaluator.evaluate_byte at 0x7f0711752550>
+                  └ <yolox.evaluators.mot_evaluator.MOTEvaluator object at 0x7f078fb16250>
+
+  File "/home/wyw/BSproject/MixSort/yolox/evaluators/mot_evaluator.py", line 223, in evaluate_byte
+    eval_results = self.evaluate_prediction(data_list, statistics)
+                   │    │                   │          └ tensor([3.2269e+03, 1.6879e+01, 2.6969e+04], device='cuda:0')
+                   │    │                   └ [{'image_id': 1, 'category_id': 1, 'bbox': [439.8981628417969, 267.0581970214844, 116.50942993164062, 170.87240600585938], 's...
+                   │    └ <function MOTEvaluator.evaluate_prediction at 0x7f07117529d0>
+                   └ <yolox.evaluators.mot_evaluator.MOTEvaluator object at 0x7f078fb16250>
+
+  File "/home/wyw/BSproject/MixSort/yolox/evaluators/mot_evaluator.py", line 1127, in evaluate_prediction
+    from yolox.layers import COCOeval_opt as COCOeval
+
+  File "/home/wyw/BSproject/MixSort/yolox/layers/__init__.py", line 5, in <module>
+    from .fast_coco_eval_api import COCOeval_opt
+
+  File "/home/wyw/BSproject/MixSort/yolox/layers/fast_coco_eval_api.py", line 13, in <module>
+    from yolox import _C
+
+ImportError: cannot import name '_C' from 'yolox' (/home/wyw/BSproject/MixSort/yolox/__init__.py)
