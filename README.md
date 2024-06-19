@@ -27,7 +27,7 @@ python3 tools/convert_sportsmot_to_coco.py
 python3 tools/convert_sportsmot_anno.py
 ```
 ### 已处理数据集下载
-百度网盘
+百度网盘链接 [datasets](https://pan.baidu.com/s/1uX-s5z86xcmHWbXtpQI9bA?pwd=qxyh 提取码：qxyh)
 ## 跟踪任务
 ```
 python3 tools/track_mixsort.py -expn {exp_name} -f exps/example/mot/yolox_x_sportsmot.py -c pretrained/yolox_x_sports_train.pth.tar -b 1 -d 1 --config track
