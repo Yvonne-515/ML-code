@@ -27,7 +27,7 @@ python3 tools/convert_sportsmot_to_coco.py
 python3 tools/convert_sportsmot_anno.py
 ```
 ### 已处理数据集下载
- https://pan.baidu.com/s/1uX-s5z86xcmHWbXtpQI9bA?pwd=qxyh 提取码：qxyh
+ 链接：https://pan.baidu.com/s/1uX-s5z86xcmHWbXtpQI9bA?pwd=qxyh 提取码：qxyh
 ## 训练权重下载
  链接：https://pan.baidu.com/s/1Q_SY-tHs1XzUg2xZOrd7Bg?pwd=5fjl 提取码：5fjl 
 ## 跟踪任务
