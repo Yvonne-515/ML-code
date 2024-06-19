@@ -12,7 +12,7 @@ pip3 install -r MixViT/requirements.txt
 ```
 ## 数据集准备
 ### 实验总数据集
-下载 [SportsMOT](https://github.com/MCG-NJU/SportsMOT), 按以下目录存放 `<NB_HOME>/datasets` ：
+下载 [SportsMOT](https://github.com/MCG-NJU/SportsMOT)后, 按以下目录存放 `<NB_HOME>/datasets` ：
 ```
 datasets
    |——————SportsMOT
@@ -27,7 +27,9 @@ python3 tools/convert_sportsmot_to_coco.py
 python3 tools/convert_sportsmot_anno.py
 ```
 ### 已处理数据集下载
-百度网盘链接 [datasets](https://pan.baidu.com/s/1uX-s5z86xcmHWbXtpQI9bA?pwd=qxyh 提取码：qxyh)
+ https://pan.baidu.com/s/1uX-s5z86xcmHWbXtpQI9bA?pwd=qxyh 提取码：qxyh
+## 训练权重下载
+ 链接：https://pan.baidu.com/s/1Q_SY-tHs1XzUg2xZOrd7Bg?pwd=5fjl 提取码：5fjl 
 ## 跟踪任务
 ```
 python3 tools/track_mixsort.py -expn {exp_name} -f exps/example/mot/yolox_x_sportsmot.py -c pretrained/yolox_x_sports_train.pth.tar -b 1 -d 1 --config track
