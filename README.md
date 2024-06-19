@@ -11,7 +11,7 @@ sudo apt-get install libturbojpeg
 pip3 install -r MixViT/requirements.txt
 ```
 ## 数据集准备
-###实验总数据集
+### 实验总数据集
 下载 [SportsMOT](https://github.com/MCG-NJU/SportsMOT), 按以下目录存放 `<NB_HOME>/datasets` ：
 ```
 datasets
@@ -26,7 +26,7 @@ cd <MixSort_HOME>
 python3 tools/convert_sportsmot_to_coco.py
 python3 tools/convert_sportsmot_anno.py
 ```
-###部分已处理数据集下载
+### 已处理数据集下载
 百度网盘
 ## 跟踪任务
 ```
